@@ -14,7 +14,6 @@ export default {
     }
   },
   actions: {
-
     async fetchInfo ({ dispatch, commit }) {
       try {
         const uid = await dispatch('getUid')
