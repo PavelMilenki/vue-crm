@@ -50,6 +50,7 @@
   import { minValue, required } from 'vuelidate/lib/validators'
 
   export default {
+
     props: {
       categories: {
         type: Array,

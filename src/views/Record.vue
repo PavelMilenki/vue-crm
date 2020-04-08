@@ -99,9 +99,12 @@
     async mounted () {
       this.categories = await this.$store.dispatch('fetchCategories')
       this.loading = false
+      console.log('dara' , this.categories)
+
       if (this.categories.length) {
         this.category = this.categories[0].id
       }
+
       setTimeout(() => {
         this.select = M.FormSelect.init(this.$refs.select)
         M.updateTextFields()
