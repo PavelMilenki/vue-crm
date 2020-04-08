@@ -1,4 +1,4 @@
-Demo: https://vuejscrm.herokuapp.com/
+
 
 **Stack:**
 
